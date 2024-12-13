@@ -4,12 +4,17 @@
 import Header from './components/HeaderComponent/HeaderComponent'
 // Import the Main Component from MainComponent.jsx file 
 import Main from "./components/MainComponent/MainComponent"
+// Import the Footer Component from FooterComponent.jsx file 
+import Footer from "./components/FooterComponent/FooterComponent"
 
 function App() {
   return (
     <>
-      <Header />
-      <Main />
+      <div className="mainContent">
+        <Header />
+        <Main />
+        <Footer />
+      </div>
     </>
   )
 }

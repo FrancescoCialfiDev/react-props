@@ -3,8 +3,8 @@
 
 function Header() {
     return (
-        <header className="text-center p-3 border">
-            <h1>Il mio blog</h1>
+        <header className="d-flex align-items-center justify-content-center p-3">
+            <h1>Walpapers</h1>
         </header>
     )
 }

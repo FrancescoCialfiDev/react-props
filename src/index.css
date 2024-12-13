@@ -1,0 +1,37 @@
+/*-------Reset of default syle of page--------*/
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.mainContent{
+  height: 100vh;
+}
+main{
+    height: calc(100% - 170px);
+    background-color: red;
+}
+
+/*-------Header--------*/
+header{
+    height: 70px;
+}
+
+/*-------Footer--------*/
+footer{
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    word-wrap: break-word;
+}
+footer>div {
+width: 80%;
+}
+img{
+    height: 20%;
+}
+
+.card{
+    margin: 0 10px;
+    padding: 0;
+}
