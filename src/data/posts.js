@@ -24,7 +24,7 @@ const posts = [
         content:
             "JavaScript is a powerful scripting language used to make web pages interactive and dynamic, from simple animations to complex web apps.",
         tags: ["html", "css"],
-        published: true,
+        published: false,
     },
     {
         id: 4,
@@ -42,7 +42,7 @@ const posts = [
         content:
             "Accessibility ensures that websites are usable by everyone, including individuals with disabilities. Learn key practices to enhance accessibility.",
         tags: ["html", "css"],
-        published: true,
+        published: false,
     },
 ];
 

@@ -1,10 +1,12 @@
 
 
+
 function Main({ cards }) {
+
     const newPosts = [...cards].map((element) => {
         return (
-            <>
-                <div className="col-xl-3 col-md-4 col-sm-6">
+            element.published && (
+                <div className="col-xl-3 col-md-4 col-sm-6" key={element.id}>
                     <div className="card">
                         <img src={element.image} className="card-img-top" alt="" />
                         <div className="card-body">
@@ -14,12 +16,11 @@ function Main({ cards }) {
                         </div>
                     </div>
                 </div>
-
-            </>
+            )
         )
     })
 
-    console.log(newPosts);
+
 
 
     return (
