@@ -6,13 +6,15 @@ import Header from './components/HeaderComponent/HeaderComponent'
 import Main from "./components/MainComponent/MainComponent"
 // Import the Footer Component from FooterComponent.jsx file 
 import Footer from "./components/FooterComponent/FooterComponent"
+// Import the posts  from posts.js file 
+import posts from "../src/data/posts"
 
 function App() {
   return (
     <>
       <div className="mainContent">
         <Header />
-        <Main />
+        <Main cards={posts} />
         <Footer />
       </div>
     </>

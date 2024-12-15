@@ -37,9 +37,18 @@ width: 80%;
     background-color: white;
     padding: 2px;
     margin: 15px;
-
+}
+.card img {
+    object-fit: cover;
+    height: 150px;
+    width: 100%;
 }
 
+
 .card-body{
-    background-color: rgb(214, 214, 214);
+    height: 280px;
+}
+
+.card-text{
+    height: 55%;
 }

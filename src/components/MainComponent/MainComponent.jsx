@@ -1,10 +1,10 @@
-import posts from "../../data/posts";
 
-function Main() {
-    const newPosts = [...posts].map((element) => {
+
+function Main({ cards }) {
+    const newPosts = [...cards].map((element) => {
         return (
             <>
-                <div className="col-3">
+                <div className="col-xl-3 col-md-4 col-sm-6">
                     <div className="card">
                         <img src={element.image} className="card-img-top" alt="" />
                         <div className="card-body">
@@ -18,6 +18,8 @@ function Main() {
             </>
         )
     })
+
+    console.log(newPosts);
 
 
     return (
