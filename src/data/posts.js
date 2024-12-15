@@ -1,40 +1,49 @@
 const posts = [
     {
         id: 1,
-        title: "Titolo del Post",
-        image: '',
+        title: "Introduction to HTML Basics",
+        image: "https://via.placeholder.com/600x400?text=HTML+Basics",
         content:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit animi unde quasi enim non esse ratione voluptas voluptate, officiis veritatis magni blanditiis possimus nobis cum id inventore corporis deserunt hic.",
+            "HTML (HyperText Markup Language) is the foundation of web development. It structures content on the web and allows developers to create semantic layouts.",
         tags: ["html", "css"],
         published: true,
     },
     {
         id: 2,
-        title: "Titolo del Post",
-        image: '',
+        title: "Getting Started with CSS Styling",
+        image: "https://via.placeholder.com/600x400?text=CSS+Styling",
         content:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit animi unde quasi enim non esse ratione voluptas voluptate, officiis veritatis magni blanditiis possimus nobis cum id inventore corporis deserunt hic.",
-        tags: ["js", "css"],
+            "CSS (Cascading Style Sheets) brings life to web pages by defining styles such as colors, fonts, and layouts.",
+        tags: ["html", "css"],
         published: true,
     },
     {
         id: 3,
-        title: "Titolo del Post",
-        image: '',
+        title: "Mastering JavaScript for Interactivity",
+        image: "https://via.placeholder.com/600x400?text=JavaScript+Interactivity",
         content:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit animi unde quasi enim non esse ratione voluptas voluptate, officiis veritatis magni blanditiis possimus nobis cum id inventore corporis deserunt hic.",
-        tags: ["js", "php"],
+            "JavaScript is a powerful scripting language used to make web pages interactive and dynamic, from simple animations to complex web apps.",
+        tags: ["html", "css"],
         published: true,
     },
     {
         id: 4,
-        title: "Titolo del Post",
-        image: '',
+        title: "Responsive Design with Media Queries",
+        image: "https://via.placeholder.com/600x400?text=Responsive+Design",
         content:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit animi unde quasi enim non esse ratione voluptas voluptate, officiis veritatis magni blanditiis possimus nobis cum id inventore corporis deserunt hic.",
-        tags: ["html"],
-        published: false,
+            "Media queries in CSS allow developers to create responsive designs that adapt to different screen sizes and devices.",
+        tags: ["html", "css"],
+        published: true,
+    },
+    {
+        id: 5,
+        title: "Web Accessibility Best Practices",
+        image: "https://via.placeholder.com/600x400?text=Web+Accessibility",
+        content:
+            "Accessibility ensures that websites are usable by everyone, including individuals with disabilities. Learn key practices to enhance accessibility.",
+        tags: ["html", "css"],
+        published: true,
     },
 ];
 
-export default posts;
+export default posts

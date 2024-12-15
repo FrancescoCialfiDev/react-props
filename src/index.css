@@ -4,17 +4,17 @@
     padding: 0%;
     box-sizing: border-box;
 }
-.mainContent{
-  height: 100vh;
-}
-main{
-    height: calc(100% - 170px);
-    background-color: red;
-}
+
 
 /*-------Header--------*/
 header{
-    height: 70px;
+    height: 100px;
+}
+
+/*-------Main--------*/
+main{
+    min-height: calc(100vh - 200px);
+    background-color: gray;
 }
 
 /*-------Footer--------*/
@@ -27,11 +27,19 @@ footer{
 footer>div {
 width: 80%;
 }
-img{
-    height: 20%;
+
+.row{
+    min-height: calc(100vh - 200px);
+
 }
 
 .card{
-    margin: 0 10px;
-    padding: 0;
+    background-color: white;
+    padding: 2px;
+    margin: 15px;
+
+}
+
+.card-body{
+    background-color: rgb(214, 214, 214);
 }
